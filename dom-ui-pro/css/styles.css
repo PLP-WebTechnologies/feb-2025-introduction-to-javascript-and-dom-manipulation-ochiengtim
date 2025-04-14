@@ -1,0 +1,63 @@
+ /* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .site-header,
+  .site-footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .main-content {
+    padding: 2rem;
+  }
+  
+  .section-block {
+    margin-bottom: 2rem;
+  }
+  
+  /* Text Styling */
+  .text-content {
+    font-size: 1.125rem;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .highlight {
+    background-color: #ffeeba;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dynamic Element */
+  .element-container p {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  

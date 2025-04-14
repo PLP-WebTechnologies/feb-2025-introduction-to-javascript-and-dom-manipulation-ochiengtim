@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional DOM manipulation demo using JavaScript" />
+  <title>DOM Interaction Demo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header role="banner" class="site-header">
+    <h1>DOM Interaction Interface</h1>
+  </header>
+
+  <main role="main" class="main-content">
+    <section aria-labelledby="text-manipulation" class="section-block">
+      <h2 id="text-manipulation">Dynamic Text</h2>
+      <p id="dynamic-text" class="text-content">Initial placeholder text.</p>
+      <button type="button" aria-label="Change displayed text" onclick="handleTextChange()">Change Text</button>
+    </section>
+
+    <section aria-labelledby="style-toggle" class="section-block">
+      <h2 id="style-toggle">Toggle Styles</h2>
+      <button type="button" aria-label="Toggle text highlight style" onclick="toggleHighlight()">Toggle Highlight</button>
+    </section>
+
+    <section aria-labelledby="element-control" class="section-block">
+      <h2 id="element-control">Element Controls</h2>
+      <button type="button" aria-label="Add dynamic element" onclick="addDynamicElement()">Add Element</button>
+      <button type="button" aria-label="Remove dynamic element" onclick="removeDynamicElement()">Remove Element</button>
+      <div id="dynamic-container" class="element-container"></div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="site-footer">
+    <p>&copy; 2025 DOM by ochiengtim</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
